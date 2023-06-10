@@ -1,0 +1,39 @@
+.formContainer {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9C528B;
+  border: 1px solid #336699;
+  border-radius: 4px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid cyan;
+  border-radius: 4px;
+}
+
+.wrongEmail {
+  border-color: #F26419;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #B1D65C;
+  color: #F26419;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #336699;
+}
