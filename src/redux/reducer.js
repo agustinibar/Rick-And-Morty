@@ -7,13 +7,11 @@ const rootReducer = (state = initialState, {type, payload}) => {
     switch(type){
         case REMOVE_FAV:
             return { 
-                ...state, 
-                myFavorites: state.myFavorites.filter(fav => fav.id !== payload)
+                ...state, myFavorites: payload 
             };
         case ADD_FAV:
             return { 
-                ...state, 
-                myFavorites: [...state.myFavorites, payload]
+                ...state, myFavorites: payload, allCharacters: payload 
             };
         default:
             return {... state}

@@ -24,7 +24,7 @@ if(location.pathname === "/"){
             <Link to="/favorites">
             <button className={styles.buttonAbout}>Favorites</button>
             </Link>
-        </div>
+        </div>  
        
         </nav>
         </>
